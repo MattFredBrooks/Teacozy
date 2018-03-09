@@ -63,14 +63,52 @@ header nav a {
   display: flex;
   align-items: center;
   text-align: center;
-  height: 700px;
   width: 1200px;
+}
+
+/* Hero mission */
+
+.hero.mission {
+  height: 700px;
   background-image: url('../images/img-mission-background.jpg');
 }
 
-.hero-text {
+.mission-hero-text {
   background-color: black;
   width: 1200px;
+}
+
+/* Hero locations */
+
+.hero.locations {
+  display: block;
+  align-items: flex-start;
+  justify-content: center;
+  height: 500px;
+  background-image: url('../images/img-locations-background.jpg');
+  margin-top: 60px;
+}
+
+.hero.locations h2 {
+  margin-top: 80px;
+  margin-bottom: 15px;
+}
+
+.addresses div {
+  display: inline-block;
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin: 0 20px;
+}
+
+.addresses h3 {
+  font-size: 28px
+}
+
+.addresses p {
+  font-size: 22px;
+  line-height: 1.8;
 }
 
 /* Tea of the month */
