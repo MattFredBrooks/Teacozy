@@ -139,3 +139,27 @@ header nav a {
 .tea-month-products p {
   margin-top: 10px;
 }
+
+/* Footer */
+
+.footer-details {
+  text-align: center;
+  height: 200px;
+}
+
+.footer-details h2 {
+  margin-top: 10px;
+}
+
+.footer-details p,
+h5 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
